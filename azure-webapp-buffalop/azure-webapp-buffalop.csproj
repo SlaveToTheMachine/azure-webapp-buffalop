@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_webapp_buffalop</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/8445e9bf-c4d5-463f-a8b1-ad494656f5d1/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-webapp-buffalop-vstudio</ApplicationInsightsResourceId>
+    <UserSecretsId>93d223ae-8d8f-449c-a5dc-9056c64bc44b</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>

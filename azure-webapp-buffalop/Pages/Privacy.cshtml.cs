@@ -14,6 +14,7 @@ namespace azure_webapp_buffalop.Pages
 
         public void OnGet()
         {
+            throw new Exception("test insights");
         }
     }
 
